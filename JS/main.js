@@ -16,11 +16,11 @@ const button = document.querySelector("#LOL2");
 
 button.addEventListener("click", function(event) {
  
-  console.log(input.value)
+
   if (input.value.includes("@")){
-    alert("Thank you for signing up!")
+    alert("Thank you for subscribing")
     
   } else {
-   alert("Please enter a valid email address or atleast the @ symbol")
+   alert("Please enter a valid email address.")
    
 }});

@@ -100,33 +100,33 @@ table {
     font-style: normal;
 }
 
-/* body {
-    width: 100%;
-    background-color: white;
-    
-} */
+/* END FONTS */
+
+/* START MAIN CSS */
+
+/* Main Container for Mobile Version */
+
+
+html {
+    scroll-behavior: smooth;
+}
+
 
 .container {
     display: flex;
-   flex-direction: column;
+    flex-direction: column;
     min-width: 480px;
     font-size: 14px;
     width: 100%;
-    
 }
 
 header{
     display: inline;
-   
-
-   background-color: white;
+    background-color: white;
     padding: 5px;
     order: 1;
     max-width: 100%;
-   
 }
-
-
 
 .aloha {
     width: 30%;
@@ -144,9 +144,7 @@ nav {
     color: #e2574c;
     font-family: 'Raleway';
     order: 2;
-    width: 100%;
-  
-   
+    width: 100%; 
 }
 
 nav>ul {
@@ -158,9 +156,6 @@ nav>ul {
     padding: 10px 20px 10px 20px;
     border-top: 1px solid #d7d7d7;
     margin: 0 10px 0 10px;
-  
-   
-    /* FIX BORDER */
 }
 
 li>a {
@@ -168,7 +163,6 @@ li>a {
 }
 
 .herobanner {
-    /** position of girl using flex **/
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/banner-girl.png"),url("../images/flower-bkgd.jpg");
     background-repeat: no-repeat,no-repeat,no-repeat;
     background-position: 100% 100%,50% 500%, 100% 100%;
@@ -219,7 +213,6 @@ li>a {
    
 }
 .mid>p {
-    /* font-size: 2em; */
     font-family: "Raleway";
     font-weight: 200;
     line-height: 50px;
@@ -234,15 +227,11 @@ strong {
     font-weight: 800;
 }
 
-
-
 h3 {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
-
 
 .mid>p {
     text-align: center;
@@ -252,11 +241,9 @@ h3 {
     color: #2d2d2d;
     margin-top: 5%;
 }
+
  .categories {
     order: 5;
-    
-  
-  
 } 
 
 .pics {
@@ -266,13 +253,11 @@ h3 {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
-    
 }
 
 .gallery-long {
     flex: 100%;
     text-align: center;
-
     display: absolute;
 }
 
@@ -295,14 +280,12 @@ h3 {
     width: 100%;
     order: 1;
     display: flex;
-    
 }
 
 h3 {
     position: relative;
     font-family: "raleway";
     color: white;
-    
 }
 
 .gallery-long>h3 {
@@ -320,14 +303,13 @@ h3 {
 .products{
     order: 6;
     height: auto;
-   margin: 10% 0;
+    margin: 10% 0;
 } 
 
 .products>h1 {
     font-family: "Playfair Display";
     text-align: center;
     font-size: 2em;
-  
 }
 
 .main-carousel {
@@ -353,7 +335,6 @@ h3 {
  
 .carousel-cell {
     width: 100%;
-    /* height: 100%; */
     margin-right: 10px; 
   }
 
@@ -361,7 +342,6 @@ h3 {
     width: 100%;
 }
   
-
 .newsletter {
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/wave-bkgd.jpg");
     background-size: cover;
@@ -394,7 +374,7 @@ h3 {
     line-height: 1.5em;
     order: 2;
     margin-top: 20px;   
-  font-size: 1em;
+    font-size: 1em;
     font-weight: 200;
 }
 
@@ -403,7 +383,6 @@ h3 {
     font-family: "raleway";
     order: 3;
     width: 100%;
-    
 }
 
 input[type="email"] {  
@@ -422,10 +401,8 @@ input[type="submit"] {
     background-color: #e2574c;
     position: relative;
     border-radius: 25px;
-  padding: 8px;
+    padding: 8px;
     width: 15%;
-
-    
 }
 
 #lol2 {
@@ -450,77 +427,54 @@ footer {
     justify-content: space-around;
     text-align: center;
     padding: 5% 10% 5% 10%;
-    
 }
 
 .contact>p {
     padding: 3%;
-   
+}
+
+.grey-p {
+    color: #969696
 }
 
 .icons {
-    display: flex;
     justify-content: center;
+    display: flex;
+}
+
+.icons>ul {
+    display: flex;
+    justify-content: space-around;
     padding-bottom: 5%;
+    width: 40%;
 }
 
-i {
-  padding-left: 2.5%;
-    
+.icon-text{
+    display: none;
 }
 
- @media all and (min-width: 600px){
-    
-    /* .pics {
-    order: 5;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-    max-height: auto;
-}
+/* end of Mobile Version */
 
-.gallery-long {
-    flex: 50%;
-    text-align: center;
-    
-}
+/* Start of Tablet Version */
 
-.gallery-short-left {
-    flex: 24%;
-  
-}
 
-.gallery-short-right {
-    flex: 24%;
-}
-
-.pics img {
-    max-height: auto;
-    width: 100%;
-   */
-    
+ @media all and (min-width: 600px){  
    .container {
     display: flex;
-   flex-direction: column;
+    flex-direction: column;
     min-width: 480px;
     font-size: 16px;
     width: 100%;
     
 }
 
-header{
-    display: inline;
-   
-   background-color: white;
+    header{
+    display: inline; 
+    background-color: white;
     padding: 10px;
     order: 1;
     max-width: 100%;
-    
 }
-
-
 
 .aloha {
     width: 30%;
@@ -549,10 +503,6 @@ nav>ul {
     padding: 10px 10px 10px 10px;
     margin-top: 5%;
     border: none;
-   
-  
-   
-    /* FIX BORDER */
 }
 
 li>a {
@@ -560,7 +510,6 @@ li>a {
 }
 
 .herobanner {
-    /** position of girl using flex **/
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/banner-girl.png"),url("../images/flower-bkgd.jpg");
     background-repeat: no-repeat,no-repeat,no-repeat;
     background-position: 100% 100%,50% 500%, 100% 100%;
@@ -601,7 +550,6 @@ li>a {
     display: inline-block;
     max-width: 100%;
     padding: 10% 3% 10% 3%;
-    
 }
 
 .mid>h1 {
@@ -611,7 +559,6 @@ li>a {
    
 }
 .mid>p {
-    /* font-size: 2em; */
     font-family: "Raleway";
     font-weight: 200;
     line-height: 50px;
@@ -627,15 +574,11 @@ strong {
     font-weight: 800;
 }
 
-
-
 h3 {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
-
 
 .mid>p {
     text-align: center;
@@ -647,9 +590,6 @@ h3 {
 }
  .categories {
     order: 5;
-    
-  
-  
 } 
 
 .pics {
@@ -659,7 +599,6 @@ h3 {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-   
 }
 
 .gallery-long {
@@ -682,16 +621,13 @@ h3 {
 .pics img {
     margin: 0;
     width: 100%;
-   
-    
 }
 
 h3 {
     position: relative;
     font-family: "raleway";
     color: white;
-    font-size: 3em;
-    
+    font-size: 2em;
 }
 
 .gallery-long>h3 {
@@ -716,7 +652,6 @@ h3 {
     font-family: "Playfair Display";
     text-align: center;
     font-size: 2em;
-  
 }
 
 .main-carousel {
@@ -742,7 +677,6 @@ h3 {
  
 .carousel-cell {
     width: 50%;
-    /* height: 100%; */
     margin-right: 10px; 
   }
 
@@ -765,7 +699,7 @@ h3 {
     order: 1;
     display: flex;
     flex-direction: column;
-    padding: 10% 0 10% 0;
+    padding: 10% 15% 10% 15%;
     text-align: center;
 }
 
@@ -783,23 +717,24 @@ h3 {
     line-height: 1.5em;
     order: 2;
     margin-top: 20px;   
-  font-size: 1em;
+    font-size: 1em;
     font-weight: 200;
 }
 
 .email {
-    display: inline-block;
+    display: flex;
     font-family: "raleway";
     order: 3;
     width: 100%;
-    
+    justify-content: center;
+    padding-bottom: 5%;
 }
 
 input[type="email"] {  
    right: 30%;
    border: none;
    border-radius: 25px;
-   width: 80%;
+   width: 50%;
    font-size: 1em;
    font-family: "Raleway";
    padding: 10px;
@@ -811,10 +746,8 @@ input[type="submit"] {
     background-color: #e2574c;
     position: relative;
     border-radius: 25px;
-  padding: 8px;
+    padding: 8px;
     width: 15%;
-
-    
 }
 
 #lol2 {
@@ -824,40 +757,431 @@ input[type="submit"] {
 footer {
     order: 9;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     background-color: #242424;
     color: white;
     font-family: "playfair display";
     margin-top: 8px;
     width: 100%;
-    padding: 5% 0;
+    height: 180px;
+    justify-content: space-between;
 }
 
 .contact {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    text-align: center;
-    padding: 5% 10% 5% 10%;
-    
+    text-align: left;
+    padding: 0;
+    line-height: 14px;
+    margin-left: 1%;
 }
 
 .contact>p {
-    padding: 3%;
-   
+    line-height: 14px;
+    padding: 0;
+}
+
+.grey-p {
+    color: #969696
 }
 
 .icons {
+    padding-right: 3%;
+    padding-bottom: 0;
+    text-align: center;
+    line-height: 2;
+    justify-content: space-between;
+}
+
+.icons>ul {
     display: flex;
-    justify-content: center;
-    padding-bottom: 5%;
+    flex-direction: column;
+    width: 100%; 
+}
+
+.icons>ul>li {
+    display: inline;
+}
+
+.icon-text{
+    display: inline;
 }
 
 i {
-  padding-left: 2.5%;
-    
+    text-align: left;
 }
 
+/* End of Tablet Version */
 
+/* Beginning of Desktop Version */
 
+@media all and (min-width: 1240px){  
+    
+.container {    
+    display: flex;
+    flex-direction: column;
+    min-width: 480px;
+    font-size: 16px;
+    width: 100%;
+ }
+ 
+ header{
+    display: inline;
+    background-color: white;
+    padding: 10px;
+    order: 1;
+    max-width: 100%;
+ }
+ 
+ .aloha {
+    width: 20%;
+    float: left;
+ }
+ 
+ .cart {
+    width: 10%;
+    float: right;
+    align-content: center;
+ }
+ 
+ nav {
+     color: #e2574c;
+     font-family: 'Raleway';
+     order: 1;
+     display: inline;  
+     top: 50%;
+ }
+ 
+ nav>ul {
+     background-color: white;
+     list-style-type: none;
+     display: flex;
+     max-width: 100%;
+     justify-content: space-around;
+     padding: 10px 10px 10px 10px;
+     margin-top: 5%;
+     border: none;
+     font-size: 2em;
+ }
+ 
+ li>a {
+     color: #e2574c;
+ }
+ 
+ .herobanner {
+     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/banner-girl.png"),url("../images/flower-bkgd.jpg");
+     background-repeat: no-repeat,no-repeat,no-repeat;
+     background-position: 100% 100%,50% 500%, 100% 100%;
+     background-size: contain, 277.2px 637px, cover; 
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     order: 3;
+     height: 650px;
+ }
+ 
+ .herotext{
+     color: white ;
+     display: flex;
+     flex-direction: column;
+     padding: 15%;
+     justify-content: space-between;
+     width:75%;
+ }
+ 
+ .herotext>h5 {
+     font-family: "raleway";
+     text-align: center;
+     font-size: 2em;
+ }
+ 
+ .herotext h1 {
+     font-family: "Playfair Display";
+     text-align: center;
+     font-size: 4em;
+     margin-top: 5%;
+ }
+ 
+ .mid {
+     order: 4;
+     padding: 3% 1% 3% 1%;
+     color: #2d2d2d;
+     display: inline-block;
+     max-width: 100%;
+ }
+ 
+ .mid>h1 {
+     font-family: "Playfair Display";
+     font-size: 4em;
+     text-align: center;
+ }
 
+ .mid>p {
+     /* font-size: 2em; */
+     font-family: "Raleway";
+     font-weight: 200;
+     line-height: 50px;
+     text-align: center;
+     font-size: 2em;
+ }
+ 
+ em{
+     font-style: italic;
+ }
+ 
+ strong {
+     font-weight: 800;
+ }
+ 
+ h3 {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ 
+ 
+ .mid>p {
+     text-align: center;
+     font-family: "Raleway";
+     line-height: 2;
+     position: relative;
+     color: #2d2d2d;
+     margin-top: 5%;
+ }
+
+  .categories {
+     order: 5;
+ } 
+ 
+ .pics {
+     order: 5;
+     width: 100%;
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: row;
+     justify-content: center;
+ }
+ 
+ .gallery-long {
+     flex:50%;
+     text-align: center;
+ }
+ 
+ .gallery-short-left {
+     flex: 25%;
+     margin-left: 0;
+     margin-right: 0;
+ }
+ 
+ .gallery-short-right {
+     flex: 25%;
+     margin-left: 0;
+    
+ }
+ 
+ .pics img {
+     margin: 0;
+     width: 100%;
+ }
+ 
+ h3 {
+     position: relative;
+     font-family: "raleway";
+     color: white;
+     font-size: 2em; 
+ }
+ 
+ .gallery-long>h3 {
+     top: 50%;
+ }
+ 
+ .gallery-short-left>h3 {
+     top: 50%;
+ }
+ 
+ .gallery-short-right>h3 {
+    top: 50%;
+ }
+ 
+ .products{
+    order: 6;
+    height: auto;
+    margin: 10% 0;
+ } 
+ 
+ .products>h1 {
+     font-family: "Playfair Display";
+     text-align: center;
+     font-size: 2em;
+   
+ }
+ 
+ .main-carousel {
+     background: white;
+     height: 575px;
+     width: 100%;
+     text-align: center;
+   }
+ 
+ .carousel-cell>p {
+     font-family: "Raleway";   
+     color: #969696;
+     display: inline-block;
+     font-size: 1em;
+   }
+ 
+ .carousel-cell>h4 {
+     font-family: "Playfair Display";
+     font-size: 2em;
+     color: #e2574c;
+     padding: 3%;
+   }
+  
+ .carousel-cell {
+     width: 25%;
+     margin-right: 10px; 
+   }
+ 
+ .carousel-cell>img {
+     width: 100%;
+ }
+   
+ 
+ .newsletter {
+     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/wave-bkgd.jpg");
+     background-size: cover;
+     background-position: 100% 100%;
+     background-repeat: no-repeat;
+     order: 7;
+     min-height: 300px;
+     background-color: pink;
+ }
+ 
+ .newsletter-text {
+     order: 1;
+     display: flex;
+     flex-direction: column;
+     padding: 0;
+     text-align: center;
+     padding: 5% 15% 2% 15%;
+ }
+ 
+ .newsletter-text>h1 {
+     font-family: "playfair display";
+     color: white;
+     order: 1;
+     font-size: 2em;
+ }
+ 
+ .newsletter-text>p {
+     font-family: "raleway";
+     color: white;
+     position: relative;
+     line-height: 1.5em;
+     order: 2;
+     margin-top: 20px;   
+     font-size: 1.5em;
+     font-weight: 200;
+ }
+ 
+ .email {
+     display: flex;
+     font-family: "raleway";
+     order: 3;
+     width: 100%;
+     justify-content: center;
+     padding-bottom: 5%;
+ }
+ 
+ input[type="email"] {  
+    right: 30%;
+    border: none;
+    border-radius: 25px;
+    width: 50%;
+    font-size: 1em;
+    font-family: "Raleway";
+    padding: 10px;
+ }
+ 
+ input[type="submit"] {
+     border: 1px;
+     color: white;
+     background-color: #e2574c;
+     position: relative;
+     border-radius: 25px;
+     padding: 8px;
+     width: 15%;
+ 
+     
+ }
+ 
+ #lol2 {
+     float: 50%;
+ }
+ 
+ footer {
+     order: 9;
+     display: flex;
+     flex-direction: row;
+     background-color: #242424;
+     color: white;
+     font-family: "playfair display";
+     margin-top: 8px;
+     width: 100%;
+     height: 180px;
+     justify-content: space-between;
+     padding: 3% 0;
+ }
+ 
+ .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: left;
+    padding: 0;
+    line-height: 14px;
+    margin-left: 1%;
+ }
+ 
+ .contact>p {
+    line-height: 14px;
+    padding: 0;
+ }
+ 
+ .grey-p {
+    color: #969696
+ }
+ 
+ .icons {
+    padding-right: 3%;
+    padding-bottom: 0;
+    text-align: center;
+    line-height: 2;
+    justify-content: space-between;
+ }
+ 
+ .icons>ul {
+    display: flex;
+   flex-direction: column;
+    width: 100%;
+ }
+ 
+ .icons>ul>li {
+     display: inline;
+    
+ }
+ 
+ .icon-text{
+     display: inline;
+ }
+ 
+ i {
+  text-align: left;
+ }
+
+/*End Desktop Version*/
+
+}
+ }
