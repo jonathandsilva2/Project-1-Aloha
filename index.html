@@ -9,13 +9,13 @@
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <!--STYLESHEETS-->
             <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+            <link href="css/reset.css" type="text/css" rel="stylesheet">
             <link href="css/style.css" type="text/css" rel="stylesheet">
             <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
     </head>
             
 <body class="container">
-    
     <header>
         <img class="aloha" src="images/aloha-logo.svg">
         <img class="cart" src="images/cart-icon.svg">
@@ -29,28 +29,30 @@
         </nav>
     </header>
 
-    <div class="herobanner">
+    <section class="herobanner">
         <div class="herotext">
             <h5>NEW COLLECTION</h5>
             <h1>Spring/Summer 2016</h1>
         </div>
-    </div>
+    </section>
 
     <div class="mid">
         <h1><em>Hand-Crafted</em> <strong>Styles</strong></h1>
         <p>Aloha Apparel Co. sells only the finest ready-to-travel clothing. Browse our current selection of products or sign-up for updates below</p>
     </div>
         
-    <div class="pics">
-        <div class="gallery-long gallery1"><h3>MENS</h3><img src="images/mens-category.jpg" alt=""></div> 
-        <div class="gallery-short-left gallery2"><h3>TRENDS</h3><img src="images/trends-category.jpg" alt=""></div>
-        <div class="gallery-short-right gallery3"><h3>GLASSES</h3><img src="images/glasses-category.jpg" alt=""></div>
-        <div class="gallery-short-left gallery4"><h3>SALES</h3><img src="images/sale-category.jpg" alt=""></div>
-        <div class="gallery-short-right gallery5"><h3>BAGS</h3><img src="images/bags-category.jpg" alt=""></div>                
-        <div class="gallery-long gallery6"><h3>WOMENS</h3><img src="images/womens-category.jpg" alt=""></div> 
-    </div>
+    <section class="categories">
+        <ul>
+            <li>MENS</li>
+            <li>TRENDS</li>
+            <li>GLASSES</li>
+            <li>SALE</li>
+            <li>BAGS</li>
+            <li>WOMENS</li>
+        </ul>
+    </section>
         
-    <div class="products">
+    <section class="products">
         <h1><em>Most-Loved</em> <strong>Products</strong></h1></h1>
         <div class="main-carousel">
             <div class="carousel-cell"><img src="images/checked-stretch-dress.jpg" alt=""><p>DRESSES</p><h4>Checked Stretch Dress</h4><p>$129.99</p></div>
@@ -62,18 +64,18 @@
             <div class="carousel-cell"><img src="images/pink-dotted-dress.jpg" alt=""><p>DRESSES</p><h4>Checked Stretch Dress</h4><p>$129.99</p></div>
             <div class="carousel-cell"><img src="images/stretch-knit-dress.jpg" alt=""><p>DRESSES</p><h4>Checked Stretch Dress</h4><p>$129.99</p></div>
         </div>
-    </div>
+    </section>
         
-    <div class="newsletter">
+    <section class="newsletter">
         <div class="newsletter-text">
             <h1><em>Sign-up for</em> <strong>Updates</strong></h1>
             <p>Stay updates on our latest product releases, be first to find out about upcoming sales, and get free styles from our blog. Unsubscribe at any time.</p>
         </div>
         <div class="email">
-            <input id="LOL" type="email" placeholder="Your Email" name="mail">
-            <input type="submit" value="subscribe" id="LOL2"></input>
+            <input type="email" placeholder="Your Email" name="mail" id="text-input">
+            <input type="submit" value="subscribe" id="click-button"></input>
         </div>
-    </div>
+    </section>
         
     <footer>
         <div class="contact">
