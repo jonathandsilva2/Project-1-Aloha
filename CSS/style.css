@@ -1,50 +1,52 @@
 /** Fonts **/
 @font-face {
-    font-family: 'Raleway';
-    src: url('Fonts/Raleway-Medium.eot');
-    src: url('Fonts/Raleway-Medium.eot?#iefix') format('embedded-opentype'),
-        url('Fonts/Raleway-Medium.woff2') format('woff2'),
-        url('Fonts/Raleway-Medium.woff') format('woff'),
-        url('Fonts/Raleway-Medium.ttf') format('truetype'),
-        url('Fonts/Raleway-Medium.svg#Raleway-Medium') format('svg');
-    font-weight: 500;
-    font-style: normal;
+  font-family: 'Raleway';
+  src: url('Fonts/Raleway-Medium.eot');
+  src: url('Fonts/Raleway-Medium.eot?#iefix') format('embedded-opentype'),
+    url('Fonts/Raleway-Medium.woff2') format('woff2'),
+    url('Fonts/Raleway-Medium.woff') format('woff'),
+    url('Fonts/Raleway-Medium.ttf') format('truetype'),
+    url('Fonts/Raleway-Medium.svg#Raleway-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Raleway';
-    src: url('Fonts/Raleway-Light.eot');
-    src: url('Fonts/Raleway-Light.eot?#iefix') format('embedded-opentype'),
-        url('Fonts/Raleway-Light.woff2') format('woff2'),
-        url('Fonts/Raleway-Light.woff') format('woff'),
-        url('Fonts/Raleway-Light.ttf') format('truetype'),
-        url('Fonts/Raleway-Light.svg#Raleway-Light') format('svg');
-    font-weight: 300;
-    font-style: normal;
+  font-family: 'Raleway';
+  src: url('Fonts/Raleway-Light.eot');
+  src: url('Fonts/Raleway-Light.eot?#iefix') format('embedded-opentype'),
+    url('Fonts/Raleway-Light.woff2') format('woff2'),
+    url('Fonts/Raleway-Light.woff') format('woff'),
+    url('Fonts/Raleway-Light.ttf') format('truetype'),
+    url('Fonts/Raleway-Light.svg#Raleway-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Playfair Display';
-    src: url('Fonts/PlayfairDisplay-Regular.eot');
-    src: url('Fonts/PlayfairDisplay-Regular.eot?#iefix') format('embedded-opentype'),
-        url('Fonts/PlayfairDisplay-Regular.woff2') format('woff2'),
-        url('Fonts/PlayfairDisplay-Regular.woff') format('woff'),
-        url('Fonts/PlayfairDisplay-Regular.ttf') format('truetype'),
-        url('Fonts/PlayfairDisplay-Regular.svg#PlayfairDisplay-Regular') format('svg');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'Playfair Display';
+  src: url('Fonts/PlayfairDisplay-Regular.eot');
+  src: url('Fonts/PlayfairDisplay-Regular.eot?#iefix')
+      format('embedded-opentype'),
+    url('Fonts/PlayfairDisplay-Regular.woff2') format('woff2'),
+    url('Fonts/PlayfairDisplay-Regular.woff') format('woff'),
+    url('Fonts/PlayfairDisplay-Regular.ttf') format('truetype'),
+    url('Fonts/PlayfairDisplay-Regular.svg#PlayfairDisplay-Regular')
+      format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Playfair Display';
-    src: url('Fonts/PlayfairDisplay-Bold.eot');
-    src: url('Fonts/PlayfairDisplay-Bold.eot?#iefix') format('embedded-opentype'),
-        url('Fonts/PlayfairDisplay-Bold.woff2') format('woff2'),
-        url('Fonts/PlayfairDisplay-Bold.woff') format('woff'),
-        url('Fonts/PlayfairDisplay-Bold.ttf') format('truetype'),
-        url('Fonts/PlayfairDisplay-Bold.svg#PlayfairDisplay-Bold') format('svg');
-    font-weight: bold;
-    font-style: normal;
+  font-family: 'Playfair Display';
+  src: url('Fonts/PlayfairDisplay-Bold.eot');
+  src: url('Fonts/PlayfairDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+    url('Fonts/PlayfairDisplay-Bold.woff2') format('woff2'),
+    url('Fonts/PlayfairDisplay-Bold.woff') format('woff'),
+    url('Fonts/PlayfairDisplay-Bold.ttf') format('truetype'),
+    url('Fonts/PlayfairDisplay-Bold.svg#PlayfairDisplay-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
 }
 
 /* END FONTS */
@@ -52,699 +54,707 @@
 /* START CSS VARIABLES */
 
 :root {
-    --theme-font-color: #e2574c;
+  --theme-font-color: #e2574c;
 }
 
 /* START MAIN CSS */
 
 /* Main Container for Mobile Version */
 
-
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
-
 .container {
-    display: flex;
-    flex-direction: column;
-    font-size: 14px;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  width: 100%;
 }
 
 header {
-    padding: 5px 10px;
+  padding: 5px 10px;
 }
 
 .aloha {
-    width: 30%;
+  width: 30%;
 }
 
 .cart {
-    width: 10%;
-    float: right;
+  width: 10%;
+  float: right;
 }
 
 nav {
-    font-family: 'Raleway';
-    width: 100%;
+  font-family: 'Raleway';
+  width: 100%;
 }
 
-nav>ul {
-    list-style-type: none;
-    display: flex;
-    max-width: 100%;
-    justify-content: space-around;
-    padding: 15px;
-    border-top: 1px solid #d7d7d7;
-    margin: 10px 10px 0 10px;
+nav > ul {
+  list-style-type: none;
+  display: flex;
+  max-width: 100%;
+  justify-content: space-around;
+  padding: 15px;
+  border-top: 1px solid #d7d7d7;
+  margin: 10px 10px 0 10px;
 }
 
-li>a {
-    color: var(--theme-font-color);
+li > a {
+  color: var(--theme-font-color);
+  text-decoration: none;
 }
 
 .herobanner {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/banner-girl.png"), url("../images/flower-bkgd.jpg");
-    background-repeat: no-repeat;
-    background-position: 100% 100%, 50% 500%, 100% 100%;
-    background-size: contain, 277.2px 637px, cover;
-    display: flex;
-    align-items: center;
-    height: 650px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url('../images/banner-girl.png'), url('../images/flower-bkgd.jpg');
+  background-repeat: no-repeat;
+  background-position: 100% 100%, 50% 500%, 100% 100%;
+  background-size: contain, 277.2px 637px, cover;
+  display: flex;
+  align-items: center;
+  height: 650px;
 }
 
 .herotext {
-    color: white;
-    display: flex;
-    flex-direction: column;
-    padding: 15%;
-    justify-content: space-between;
-    width: 75%;
-    text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 15%;
+  justify-content: space-between;
+  width: 75%;
+  text-align: center;
 }
 
-.herotext>h5 {
-    font-family: "raleway";
+.herotext > h5 {
+  font-family: 'raleway';
 }
 
 .herotext h1 {
-    font-family: "Playfair Display";
-    font-size: 2em;
-    margin-top: 10px;
+  font-family: 'Playfair Display';
+  font-size: 2em;
+  margin-top: 10px;
 }
 
 .mid {
-    color: #2d2d2d;
-    padding: 40px 30px;
-    text-align: center;
-    margin: 8%;
+  color: #2d2d2d;
+  padding: 40px 30px;
+  text-align: center;
+  margin: 8%;
 }
 
 .mid h1 {
-    font-family: "Playfair Display";
-    font-size: 2em;
+  font-family: 'Playfair Display';
+  font-size: 2em;
 }
 
 .mid p {
-    font-family: "Raleway";
-    font-weight: 200;
-    line-height: 50px;
-    line-height: 2;
-    color: #2d2d2d;
-    margin-top: 10px;
+  font-family: 'Raleway';
+  font-weight: 200;
+  line-height: 50px;
+  line-height: 2;
+  color: #2d2d2d;
+  margin-top: 10px;
 }
 
 em {
-    font-style: italic;
+  font-style: italic;
 }
 
 strong {
-    font-weight: 800;
+  font-weight: 800;
 }
 
-
 .categories {
-    display: flex;
-    width: 100%;
-    min-height: 700px;
+  display: flex;
+  width: 100%;
+  min-height: 700px;
 }
 
 .categories ul {
-    display: flex;
-    flex-flow: row wrap;
-    font-family: 'Raleway-Medium', sans-serif;
-    text-transform: uppercase;
-    font-size: 2em;
-    color: #FFF;
-    width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  font-family: 'Raleway-Medium', sans-serif;
+  text-transform: uppercase;
+  font-size: 2em;
+  color: #fff;
+  width: 100%;
 }
 
 .categories ul :nth-child(1) {
-    display: flex;
-    flex: 2 100%;
-    margin-bottom: 2%;
-    background-image: url(../images/mens-category.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center bottom;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex: 2 100%;
+  margin-bottom: 2%;
+  background-image: url(../images/mens-category.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  justify-content: center;
+  align-items: center;
 }
 
 .categories ul :nth-child(2) {
-    display: flex;
-    flex: 1 49%;
-    margin-bottom: 2%;
-    margin-right: 1%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/trends-category.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center center;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex: 1 49%;
+  margin-bottom: 2%;
+  margin-right: 1%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../images/trends-category.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  justify-content: center;
+  align-items: center;
 }
 
 .categories ul :nth-child(3) {
-    display: flex;
-    flex: 1 49%;
-    margin-bottom: 2%;
-    margin-left: 1%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/glasses-category.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center center;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex: 1 49%;
+  margin-bottom: 2%;
+  margin-left: 1%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../images/glasses-category.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  justify-content: center;
+  align-items: center;
 }
 
 .categories ul :nth-child(4) {
-    display: flex;
-    flex: 1 49%;
-    margin-bottom: 2%;
-    margin-right: 1%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/sale-category.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center center;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex: 1 49%;
+  margin-bottom: 2%;
+  margin-right: 1%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../images/sale-category.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  justify-content: center;
+  align-items: center;
 }
 
 .categories ul :nth-child(5) {
-    display: flex;
-    flex: 1 49%;
-    margin-bottom: 2%;
-    margin-left: 1%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/bags-category.jpg);
-    background-size: 100%;
-    background-position: center center;
-    background-repeat: no-repeat;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex: 1 49%;
+  margin-bottom: 2%;
+  margin-left: 1%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../images/bags-category.jpg);
+  background-size: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
 }
 
 .categories ul :nth-child(6) {
-    display: flex;
-    flex: 2 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/womens-category.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center top;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex: 2 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../images/womens-category.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center top;
+  justify-content: center;
+  align-items: center;
 }
 
 .products {
-    margin: 10% 0;
+  margin: 10% 0;
 }
 
 .products h1 {
-    font-family: "Playfair Display";
-    text-align: center;
-    font-size: 2em;
+  font-family: 'Playfair Display';
+  text-align: center;
+  font-size: 2em;
 }
 
 .main-carousel {
-    background: white;
-    height: 575px;
-    width: 100%;
-    text-align: center;
+  background: white;
+  height: 575px;
+  width: 100%;
+  text-align: center;
 }
 
 .carousel-cell {
-    width: 100%;
-    margin-right: 10px;
+  width: 100%;
+  margin-right: 10px;
 }
 
 .carousel-cell p {
-    font-family: "Raleway";
-    color: #969696;
-    display: inline-block;
-    font-size: 1em;
+  font-family: 'Raleway';
+  color: #969696;
+  display: inline-block;
+  font-size: 1em;
 }
 
 .carousel-cell h4 {
-    font-family: "Playfair Display";
-    font-size: 2em;
-    color: #e2574c;
-    padding: 3%;
+  font-family: 'Playfair Display';
+  font-size: 2em;
+  color: #e2574c;
+  padding: 3%;
 }
 
 .carousel-cell img {
-    width: 100%;
+  width: 100%;
 }
 
 .newsletter {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/wave-bkgd.jpg");
-    background-size: cover;
-    background-position: 100% 100%;
-    min-height: 300px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url('../images/wave-bkgd.jpg');
+  background-size: cover;
+  background-position: 100% 100%;
+  min-height: 300px;
 }
 
 .newsletter-text {
-    display: flex;
-    flex-direction: column;
-    padding: 10% 0;
-    text-align: center;
-    color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 10% 0;
+  text-align: center;
+  color: white;
 }
 
 .newsletter-text h1 {
-    font-family: "playfair display";
-    font-size: 2em;
+  font-family: 'playfair display';
+  font-size: 2em;
 }
 
 .newsletter-text p {
-    font-family: "raleway";
-    line-height: 1.5em;
-    order: 2;
-    margin-top: 20px;
-    font-weight: 200;
-    padding: 0 10px;
+  font-family: 'raleway';
+  line-height: 1.5em;
+  order: 2;
+  margin-top: 20px;
+  font-weight: 200;
+  padding: 0 10px;
 }
 
 .email {
-    display: flex;
-    font-family: "raleway";
-    order: 3;
-    width: 100%;
-    justify-content: center;
+  display: flex;
+  font-family: 'raleway';
+  order: 3;
+  width: 100%;
+  justify-content: center;
 }
 
-input[type="email"] {
-    right: 30%;
-    border: none;
-    border-radius: 25px;
-    width: 70%;
-    font-size: 1em;
-    font-family: "Raleway";
-    padding: 10px;
+input[type='email'] {
+  right: 30%;
+  border: none;
+  border-radius: 25px;
+  width: 70%;
+  font-size: 1em;
+  font-family: 'Raleway';
+  padding: 10px;
 }
 
-input[type="submit"] {
-    border: 1px;
-    color: white;
-    background-color: #e2574c;
-    position: relative;
-    border-radius: 25px;
-    padding: 8px;
-    width: 15%;
+input[type='submit'] {
+  border: 1px;
+  color: white;
+  background-color: #e2574c;
+  position: relative;
+  border-radius: 25px;
+  padding: 8px;
+  width: 15%;
 }
 
 footer {
-    display: flex;
-    flex-direction: column;
-    background-color: #242424;
-    color: white;
-    font-family: "playfair display";
-    width: 100%;
-    padding: 5% 0;
+  display: flex;
+  flex-direction: column;
+  background-color: #242424;
+  color: white;
+  font-family: 'playfair display';
+  width: 100%;
+  padding: 5% 0;
 }
 
 .contact {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding: 5% 10%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 5% 10%;
 }
 
 .contact p {
-    padding: 3%;
+  padding: 3%;
 }
 
 .grey-p {
-    color: #969696
+  color: #969696;
 }
 
 .icons {
-    justify-content: center;
-    display: flex;
+  justify-content: center;
+  display: flex;
 }
 
 .icons ul {
-    display: flex;
-    justify-content: space-around;
-    padding-bottom: 5%;
-    width: 40%;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 5%;
+  width: 40%;
 }
 
 .icon-text {
-    display: none;
+  display: none;
 }
 
 /* end of Mobile Version */
 
 /* Start of Tablet Version */
 
-
 @media all and (min-width: 600px) {
+  header {
+    padding: 20px;
+    align-items: center;
+    display: flex;
+  }
 
-    header {
-        padding: 20px;
-        align-items: center;
-        display: flex;
+  .aloha {
+    float: left;
+  }
+
+  .cart {
+    width: 10%;
+    order: 3;
+  }
+
+  nav {
+    order: 2;
+  }
+
+  nav ul {
+    margin-top: 5%;
+    border: none;
+    font-size: 1.2em;
+    order: 2;
+  }
+
+  .hero-banner {
+    min-height: 600px;
+  }
+
+  .herotext h5 {
+    font-size: 2em;
+  }
+
+  .herotext h1 {
+    font-size: 4em;
+    margin-top: 5%;
+  }
+
+  .mid {
+    margin: 2% 0 0;
+    padding: 60px 40px;
+  }
+
+  .mid h1 {
+    font-size: 2em;
+  }
+
+  .mid p {
+    line-height: 50px;
+    font-size: 1.2em;
+    margin-top: 15px;
+  }
+
+  .mid em {
+    font-style: italic;
+  }
+
+  .mid strong {
+    font-weight: 800;
+  }
+
+  .pics h3 {
+    font-size: 2em;
+  }
+
+  .categories {
+    min-height: 500px;
+  }
+
+  .categories ul {
+    font-size: 1.5em;
+  }
+
+  .categories ul :nth-child(1) {
+    flex: 2 49%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    background-size: cover;
+    background-position: right bottom;
+  }
+
+  .categories ul :nth-child(2) {
+    flex: 1 23%;
+    margin-bottom: 1%;
+    margin-right: auto;
+    margin-left: 0%;
+    background-size: cover;
+  }
+
+  .categories ul :nth-child(3) {
+    flex: 1 23%;
+    margin-bottom: 1%;
+    margin-right: auto;
+    background-size: cover;
+  }
+
+  .categories ul :nth-child(4) {
+    flex: 1 24%;
+    margin-bottom: 0%;
+    background-size: cover;
+  }
+
+  .categories ul :nth-child(5) {
+    flex: 1 25%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: 0%;
+    background-size: cover;
+  }
+
+  .categories ul :nth-child(6) {
+    flex: 2 49%;
+    margin-left: 1%;
+    background-size: cover;
+  }
+
+  .products h1 {
+    margin-bottom: 10px;
+  }
+
+  .carousel-cell {
+    width: 50%;
+  }
+
+  .main-carousel {
+    height: 580px;
+  }
+
+  .newsletter {
+    min-height: 380px;
+  }
+
+  .newsletter-text {
+    padding: 10% 15%;
+  }
+
+  .newsletter-text h1 {
+    font-size: 2.5em;
+  }
+
+  .newsletter-text p {
+    font-size: 1.2em;
+  }
+
+  .email {
+    display: flex;
+    font-family: 'raleway';
+    order: 3;
+    width: 100%;
+    justify-content: center;
+    padding-bottom: 5%;
+  }
+
+  footer {
+    flex-direction: row;
+    height: 180px;
+    justify-content: space-between;
+  }
+
+  .contact {
+    justify-content: space-around;
+    text-align: left;
+    padding: 0;
+    margin-left: 1%;
+  }
+
+  .contact > p {
+    padding: 0;
+  }
+
+  .icons {
+    padding-right: 3%;
+    padding-bottom: 0;
+    text-align: center;
+    line-height: 2;
+    justify-content: space-between;
+  }
+
+  .icons ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-bottom: 5%;
+    width: 100px;
+  }
+
+  .icons > ul > li {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .icon-text {
+    display: inline;
+  }
+
+  i {
+    align-self: center;
+  }
+
+  /* End of Tablet Version */
+
+  /* Beginning of Desktop Version */
+
+  @media all and (min-width: 1240px) {
+    .aloha {
+      width: 10%;
     }
 
-    .aloha {
-        float: left;
+    header {
+      padding: 0;
+      font-size: 1.5em;
+      padding: 5px;
+      margin-bottom: 5px;
     }
 
     .cart {
-        width: 10%;
-        order: 3;
+      width: 5%;
+      float: right;
+      align-content: center;
     }
 
-    nav {
-        order: 2;
-    }
-
-    nav ul {
-        margin-top: 5%;
-        border: none;
-        font-size: 1.2em;
-        order: 2;
-    }
-
-    .hero-banner {
-        min-height: 600px;
-    }
-
-    .herotext h5 {
-        font-size: 2em;
-    }
-
-    .herotext h1 {
-        font-size: 4em;
-        margin-top: 5%;
-    }
-
-    .mid {
-        margin: 2% 0 0;
-        padding: 60px 40px;
+    nav > ul {
+      padding: 0;
     }
 
     .mid h1 {
-        font-size: 2em;
+      font-size: 3em;
     }
 
     .mid p {
-        line-height: 50px;
-        font-size: 1.2em;
-        margin-top: 15px;
+      font-size: 1.5em;
+      margin-top: 20px;
     }
 
-    .mid em {
-        font-style: italic;
+    em {
+      font-style: italic;
     }
 
-    .mid strong {
-        font-weight: 800;
+    strong {
+      font-weight: 800;
     }
 
-    .pics h3 {
-        font-size: 2em;
+    h3 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
 
     .categories {
-        min-height: 500px;
+      min-height: 700px;
     }
 
     .categories ul {
-        font-size: 1.5em;
+      font-size: 1.5em;
     }
 
     .categories ul :nth-child(1) {
-        flex: 2 49%;
-        margin-right: 1%;
-        margin-bottom: 1%;
-        background-size: cover;
-        background-position: right bottom;
+      flex: 2 49%;
+      margin-right: 1%;
+      margin-bottom: 1%;
+      background-size: cover;
+      background-position: right bottom;
     }
 
     .categories ul :nth-child(2) {
-        flex: 1 23%;
-        margin-bottom: 1%;
-        margin-right: auto;
-        margin-left: 0%;
-        background-size: cover;
+      flex: 1 24%;
+      margin-bottom: 1%;
+      margin-right: auto;
+      margin-left: 0%;
+      background-size: cover;
     }
 
     .categories ul :nth-child(3) {
-        flex: 1 23%;
-        margin-bottom: 1%;
-        margin-right: auto;
-        background-size: cover;
+      flex: 1 23%;
+      margin-bottom: 1%;
+      margin-right: auto;
+      background-size: cover;
     }
 
     .categories ul :nth-child(4) {
-        flex: 1 24%;
-        margin-bottom: 0%;
-        background-size: cover;
+      flex: 1 24%;
+      margin-bottom: 0%;
+      background-size: cover;
     }
 
     .categories ul :nth-child(5) {
-        flex: 1 25%;
-        margin-bottom: 0%;
-        margin-left: auto;
-        margin-right: 0%;
-        background-size: cover;
+      flex: 1 25%;
+      margin-bottom: 0%;
+      margin-left: auto;
+      margin-right: 0%;
+      background-size: cover;
     }
 
     .categories ul :nth-child(6) {
-        flex: 2 49%;
-        margin-left: 1%;
-        background-size: cover;
+      flex: 2 49%;
+      margin-left: 1%;
+      background-size: cover;
+    }
+
+    .products {
+      margin: 5% 0;
     }
 
     .products h1 {
-        margin-bottom: 10px;
-    }
-
-    .carousel-cell {
-        width: 50%;
+      font-size: 3em;
     }
 
     .main-carousel {
-        height: 580px;
+      height: 505px;
     }
 
-    .newsletter {
-        min-height: 380px;
+    .carousel-cell h4 {
+      font-size: 2em;
+    }
+
+    .carousel-cell {
+      width: 25%;
+      margin-right: 10px;
     }
 
     .newsletter-text {
-        padding: 10% 15%;
+      padding: 8% 15% 2% 15%;
     }
 
     .newsletter-text h1 {
-        font-size: 2.5em;
+      font-size: 2em;
     }
 
-    .newsletter-text p {
-        font-size: 1.2em;
+    .newsletter-text > p {
+      font-size: 1.5em;
     }
 
     .email {
-        display: flex;
-        font-family: "raleway";
-        order: 3;
-        width: 100%;
-        justify-content: center;
-        padding-bottom: 5%;
+      display: flex;
+      font-family: 'raleway';
+      order: 3;
+      width: 100%;
+      justify-content: center;
+      padding-bottom: 5%;
+    }
+
+    input[type='email'] {
+      width: 50%;
     }
 
     footer {
-        flex-direction: row;
-        height: 180px;
-        justify-content: space-between;
+      padding: 3% 0;
     }
 
-    .contact {
-        justify-content: space-around;
-        text-align: left;
-        padding: 0;
-        margin-left: 1%;
-    }
-
-    .contact>p {
-        padding: 0;
-    }
-
-    .icons {
-        padding-right: 3%;
-        padding-bottom: 0;
-        text-align: center;
-        line-height: 2;
-        justify-content: space-between;
-
-    }
-
-    .icons ul {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        padding-bottom: 5%;
-        width: 100px;
-    }
-
-    .icons>ul>li {
-        display: flex;
-        justify-content: space-between;
-
-    }
-
-    .icon-text {
-        display: inline;
-    }
-
-    i {
-        align-self: center;
-    }
-
-    /* End of Tablet Version */
-
-    /* Beginning of Desktop Version */
-
-    @media all and (min-width: 1240px) {
-
-        .aloha {
-            width: 20%;
-        }
-
-        .cart {
-            width: 8%;
-            float: right;
-            align-content: center;
-        }
-
-        .mid h1 {
-            font-size: 3em;
-        }
-
-        .mid p {
-            font-size: 1.5em;
-            margin-top: 20px;
-        }
-
-        em {
-            font-style: italic;
-        }
-
-        strong {
-            font-weight: 800;
-        }
-
-        h3 {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .categories {
-            min-height: 700px;
-        }
-
-        .categories ul {
-            font-size: 1.5em;
-        }
-
-        .categories ul :nth-child(1) {
-            flex: 2 49%;
-            margin-right: 1%;
-            margin-bottom: 1%;
-            background-size: cover;
-            background-position: right bottom;
-        }
-
-        .categories ul :nth-child(2) {
-            flex: 1 24%;
-            margin-bottom: 1%;
-            margin-right: auto;
-            margin-left: 0%;
-            background-size: cover;
-        }
-
-        .categories ul :nth-child(3) {
-            flex: 1 23%;
-            margin-bottom: 1%;
-            margin-right: auto;
-            background-size: cover;
-        }
-
-        .categories ul :nth-child(4) {
-            flex: 1 24%;
-            margin-bottom: 0%;
-            background-size: cover;
-        }
-
-        .categories ul :nth-child(5) {
-            flex: 1 25%;
-            margin-bottom: 0%;
-            margin-left: auto;
-            margin-right: 0%;
-            background-size: cover;
-        }
-
-        .categories ul :nth-child(6) {
-            flex: 2 49%;
-            margin-left: 1%;
-            background-size: cover;
-        }
-
-        .products {
-            margin: 5% 0;
-        }
-
-        .products h1 {
-            font-size: 3em;
-
-        }
-
-        .main-carousel {
-            height: 505px;
-        }
-
-        .carousel-cell h4 {
-            font-size: 2em;
-        }
-
-        .carousel-cell {
-            width: 25%;
-            margin-right: 10px;
-        }
-
-        .newsletter-text {
-            padding: 8% 15% 2% 15%;
-        }
-
-        .newsletter-text h1 {
-            font-size: 2em;
-        }
-
-        .newsletter-text>p {
-            font-size: 1.5em;
-        }
-
-        .email {
-            display: flex;
-            font-family: "raleway";
-            order: 3;
-            width: 100%;
-            justify-content: center;
-            padding-bottom: 5%;
-        }
-
-        input[type="email"] {
-            width: 50%;
-        }
-
-        footer {
-            padding: 3% 0;
-        }
-
-
-        /*End Desktop Version*/
-
-    }
+    /*End Desktop Version*/
+  }
 }
