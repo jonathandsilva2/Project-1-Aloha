@@ -1,5 +1,10 @@
-This repository is for Project 1 of the Full Stack Developer program at Red Academy.
+# Aloha Apparel
 
-Using HTML and CSS so far has been a rewarding experience. It is fulfilling to see your	
-code come to life in the browser. The most rewarding portion of this website was getting
-the newsletter validation to work properly, since I used my own code and developed a program.
+This is a responsive website, and the first project I built in my web development career. You may view the live site [here](https://app.netlify.com/sites/jonathan-aloha/overview).
+
+## Built using
+
+* [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
+
+* [CSS3](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS)
+
