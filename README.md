@@ -1,6 +1,6 @@
 # Aloha Apparel
 
-This is a responsive website, and the first project I built in my web development career. You may view the live site [here](https://app.netlify.com/sites/jonathan-aloha/overview).
+This is a responsive website, and the first project I built in my web development career. You may view the live site [here](https://jonathan-aloha.netlify.app/).
 
 ## Built using
 
